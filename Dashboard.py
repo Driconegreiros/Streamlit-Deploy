@@ -19,7 +19,7 @@ st.markdown("---")
 @st.cache_data
 def load_data():
     # Lendo o arquivo CSV (ajuste o caminho se necessário)
-    df = pd.read_csv('PPM MODIFICADA.csv')
+    df = pd.read_csv('dataset.csv')
     
     # Limpeza básica dos dados
     # Remover linhas com Processo vazio (apenas se for completamente vazio)
